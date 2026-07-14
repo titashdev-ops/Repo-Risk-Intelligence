@@ -11,7 +11,6 @@ import type {
   Branch,
   PullRequest,
   RepositoryStatistics,
-  APIResponse,
   APIError,
 } from '@types/github';
 
