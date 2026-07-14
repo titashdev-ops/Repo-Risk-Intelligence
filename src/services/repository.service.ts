@@ -110,7 +110,6 @@ export class RepositoryService {
     commits: Commit[],
     pullRequests: PullRequest[]
   ): RepositoryStatistics {
-    const mergedPRs = pullRequests.filter((pr) => pr.merged).length;
     const totalCommits =
       commits.length > 0
         ? commits.length
